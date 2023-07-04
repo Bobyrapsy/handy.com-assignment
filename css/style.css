@@ -1,0 +1,526 @@
+/*import fonts from fonts.css file*/
+@import url(fonts.css);
+
+
+/* CSS Variables */
+@import url(partials/variables.css);
+
+/* Import global styling */
+@import url(partials/global.css);
+
+
+
+
+/*Start Header or Navbar area*/
+
+.header_area{
+    background-color: #ffffff;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 1rem 0 2rem;
+}
+
+.header_area .main-menu .navbar .navbar-brand img{
+    width: 4rem;
+}
+
+.main-aqua .header_area .main-menu .navbar{
+    padding: .8rem 8rem;
+}
+
+
+.main-aqua .header_area .main-menu div span{
+    margin: 0rem 3rem;
+}
+
+.main-aqua .header_area .main-menu .nav-item .nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 20px;
+    color: var(--title-color);
+}
+
+.main-aqua .header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*End Header or Navbar Area*/
+
+
+
+
+
+
+/*Start main-list Area*/
+
+
+.main-aqua .main-list{
+    padding: 1rem 0rem;
+    width: 79%;
+    margin: 2rem auto;
+    padding-bottom: 3rem;
+}
+
+.main-aqua .main-list .first-box .first-box-sub{
+    margin: 5rem 0rem;
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-aqua .main-list .first-box .first-box-sub .box-1{
+    display: flex;
+    height: 5rem;
+    flex-basis: 31%;
+}
+
+.main-aqua .main-list .first-box .first-box-sub .box-1 i{
+    padding: 1.2rem 1.2rem;
+    color: white;
+    font-size: 2rem;
+    background-color: #8bc53e;
+}
+
+.main-aqua .main-list .first-box .first-box-sub .box-1 h2{
+    color: #A9A9A9;
+    font-size: 1rem;
+    margin: 1.6rem auto;    
+}
+
+.main-aqua .main-list .first-box .first-box-sub .box-2 i{
+    background-color: #43d1b8;
+}
+
+.main-aqua .main-list .first-box .first-box-sub .box-3 i{
+    font-size: 1.8rem;
+    background-color: #00cded;
+}
+
+
+
+
+
+
+
+.grid-x{
+    margin: 5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.RealEstate h1{
+    font-size: 2.5rem;
+    padding-top: 25px;
+    margin-bottom: 50px;
+    color: #4e4e4e;
+}
+
+.RealEstate h2{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #676767;
+}
+
+.cell{
+	flex-basis: 23%;
+	text-align: center;
+    box-shadow: 0 0 2.5px 0px rgba(0, 0, 0, 0.266);
+    height: 13.5rem;
+}
+
+.cell img{
+	width: 18rem;
+    height: 10rem;
+}
+
+.cell h4{
+    padding: 1rem;
+	text-align: center;
+    font-size: 1rem;
+}
+
+.cell h4 i{
+    font-size: .8rem;
+}
+
+
+
+/*End main-list Area*/
+
+
+
+/*Start out-box Area*/
+
+.out-box .text-box{
+    text-align: center;
+    padding: 6rem;
+    background-color: #f4f4f4;
+}
+
+.out-box .text-box a{
+    color: #10cfed;
+    text-decoration: none;
+}
+
+.out-box .text-box h1{
+    font-size: 2rem;
+}
+
+.out-box .text-box h3{
+    font-size: 1.11rem;
+}
+
+.out-box .dual{
+    display: flex;
+    height: 70vh;
+}
+
+.out-box .dual .font-box{
+    width: 40%;
+    text-align: left;
+    padding: 7rem;
+    background-color: #234b84;
+    color: #ffffff;
+}
+
+.out-box .dual .font-box a{
+    color: white;
+}
+
+.out-box .dual .font-box h1{
+    font-size: 2rem;
+}
+
+.out-box .dual .font-box h3{
+    font-size: 1rem;
+}
+
+.out-box .dual .rect{
+    width: 60%;
+    background-image: url(https://cache-landingpages.services.handy.com/assets/pages/home/dad_kid-097cc76bf0c0d59b4f542a74e725be0c52edba580e6bbe8d6a14fbfe9c2c31b4.png);
+    background-position: center;
+	background-size: cover;
+}
+
+/*Start Out-box Area*/
+
+/*Start 2nd main-list area*/
+
+.main-list .device{
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.main-list .device .first{
+    width: 60%;
+    padding: 10rem;
+}
+
+.main-list .device .first .text-box h1{
+    color: #676767;
+    font-size: 2rem;
+}
+
+.main-list .device .first .text-box h3{
+    color: #A9A9A9;
+    font-size: 1rem;
+    padding: 1rem 0rem;
+}
+
+.main-list .device .first .img-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-list .device .first .img-box img{
+    width: 10rem;
+    flex-basis: 21%;
+}
+
+.main-list .device .second img{
+    padding: 0rem 5rem;
+}
+
+/*End 2nd main-list area*/
+
+
+/*Start 2nd Out-box area*/
+
+.main-aqua .out-box2{
+    height: 80vh;
+    background-image: url(https://cache-landingpages.services.handy.com/assets/pages/services/shop_background_desktop-4760b717c1ae900e8c1715023c52ff4f26dd64bf0d3c7d50ac391f1c3ee0fa99.png);
+    background-position: center;
+	background-size: cover;
+}
+
+.main-aqua .out-box2 .text-box{
+    padding: 5rem 10rem;
+}
+
+.main-aqua .out-box2 .text-box h1{
+    color: #676767;
+    font-size: 2rem;
+}
+
+.main-aqua .out-box2 .text-box h3{
+    color: #A9A9A9;
+    font-size: 1rem;
+    width: 30%;
+    padding: 1rem 0rem;
+}
+
+
+
+
+/*End 2nd Out-box area*/
+
+
+
+/*Start 3rd Out-box area*/
+
+.main-aqua .out-box3{
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-aqua .out-box3 .text-box{
+    height: 40vh;
+    width: 40%;
+    padding: 0rem;
+    margin: 6rem 1rem;
+}
+
+.main-aqua .out-box3 .text-box h1{
+    color: #676767;
+    font-size: 2rem;
+}
+
+.main-aqua .out-box3 .text-box h3{
+    color: #A9A9A9;
+    font-size: 1rem;
+    padding: 2rem 0rem;
+}
+
+.main-aqua .out-box3 .img-box{
+    width: 50%;
+    background-image: url(https://cache-landingpages.services.handy.com/assets/pages/home/become_pro-1afef5ef21d23f94a7f8756aebafeebb38c0ee91916c49d9787be0ddecb4cb1e.png);
+    background-repeat: no-repeat;
+    height: 520px;
+}
+
+/*End 3rd Out-box area*/
+
+
+/*Start 4th Out-box area*/
+
+.out-box4{
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+.out-box4 .text-box{
+    text-align: center;
+    padding: 6rem;
+}
+
+.out-box4 .text-box a{
+    color: #10cfed;
+    text-decoration: none;
+}
+
+.out-box4 .text-box h1{
+    color: #464646;
+    font-size: 2rem;
+}
+
+.out-box4 .text-box h3{
+    color: #585858;
+    font-size: 1.11rem;
+}
+
+.out-box4 .logos{
+    display: block;
+    justify-content: center;
+}
+
+.out-box4 .logos .block .img-box{
+    flex-basis: 31%;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 10rem;
+    height: 100px;
+}
+
+.out-box4 .logos .block{
+    padding: 0rem 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.out-box4 .logos .img-box img{
+    justify-content: center;
+    width: 24rem;
+    margin: 0rem auto;
+
+}
+
+.out-box4 .href{
+    text-align: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+/*End 4th Out-box area*/
+
+
+
+
+
+
+
+
+
+/*Start 3rd main-list area*/
+
+.main-aqua .diva{
+    margin: 4rem auto;
+    padding: 2rem;
+}
+
+.main-aqua .diva .main-3{
+    box-shadow: var(--box-shadow2);
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 79%;
+}
+
+.main-aqua .main-3 .flex-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+
+.main-aqua .main-3 .list{
+    flex-basis: 21%;
+}
+
+.main-aqua .main-3 .list li{
+    list-style: none;
+}
+
+/*End 3rd main-list area*/
+
+
+/*Footer*/
+
+footer{
+    background-color: #1D1D1D;
+    padding: 1rem 11rem;
+}
+
+footer .main-3 .first-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+
+footer .main-3 .first-flex .one li{
+    list-style: none;
+    color: #ffffff;
+}
+
+footer .main-3 .first-flex .list li{
+    list-style: none;
+    color: #838383;
+}
+
+footer .main-3 .first-flex .list .dropdown{
+    border: solid 1px white;
+    padding: 7px;
+    width: 9rem;
+    border-radius: 5px;
+}
+
+footer .main-3 .first-flex .list h5{
+    font-size: 1rem;
+    list-style: none;
+    color: #838383;
+}
+
+
+
+
+
+footer .main-3 .second-flex .droi img{
+    width: 10rem;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+
+footer .main-3 .second-flex .icons i{
+    border-radius: 5rem;
+    border: solid 1px #838383;
+    font-size: 20px;
+    padding: .8rem;
+    color: #838383;
+    margin: 1rem 0rem;
+}
+
+
+
+footer .main-3 .third-flex{
+    display: block;
+    padding: 2rem 0rem;
+}
+
+footer .main-3 .third-flex h5{ 
+    font-size: 1rem;
+    list-style: none;
+    color: #ffffff;
+}
+
+footer .main-3 .third-flex hr{
+    color: #ffffff;
+    height: 4px;
+}
+
+footer .main-3 .third-flex .sub-third-flex{
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .main-3 .third-flex .list li{
+    list-style: none;
+    color: #838383;
+}
+
+
+footer .main-3 .fourth-flex{
+    color: #838383;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .main-3 .fourth-flex .list{
+    margin: 1rem 0rem;
+}
+
+footer .main-3 .fourth-flex .list li{
+    list-style: none;
+    color: #ffffff;
+}
+
+
+
+
+
+/*Footer*/
+
+

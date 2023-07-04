@@ -1,0 +1,55 @@
+
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CSS Variables */
+
+:root{
+    --primary-color: #4458dc;
+    --primary-color2: #854fee;
+    --title-color: #141313;
+    --text-color: #777777;
+    --border-color: #201f1f17;
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    --box-shadow2: 0px 10px 15px rgba(118, 118, 118, 0.205);
+    --box-shadow3: 0px 10px 15px rgba(255, 255, 255, 0);
+    --box-shadow4: 0px 10px 10px rgba(0, 0, 0, 0.562);
+    --box-shadow4: 0px 10px 10px rgba(0, 0, 0, 0.562);
+    --box-shadow5: 10px 14px 15px rgba(146, 146, 146, 0.778);
+
+
+    /* Font Family Variables */
+    --roboto: 'Roboto', cursive;
+    --static: 'RedHatDisplay';
+    --static1: 'RedHat'; 
+    --static2: 'RedHatDis'; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

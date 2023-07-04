@@ -1,0 +1,23 @@
+
+
+/*@font-face*/
+
+@font-face{
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: "RedHatDisplay" ;
+    src: url(../fonts/static/RedHatDisplay-Medium.ttf);
+}
+
+@font-face{
+    font-family: "RedHat";
+    src: url(../fonts/static/RedHatDisplay-Black.ttf);
+}
+
+@font-face{
+    font-family: "RedHatDis";
+    src: url(../fonts/static/RedHatDisplay-Light.ttf);
+}
