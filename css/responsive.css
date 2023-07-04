@@ -219,6 +219,11 @@
         text-align: center;
     }
 
+    .main-aqua .main-list .RealEstate h1,
+     h2{
+        text-align: center;
+    }
+
     .grid-x{
         flex-direction: column;
     }
@@ -276,7 +281,12 @@
     }
     
     .main-list .device .first h3{
+        text-align: center;
         padding: 1rem 0rem;
+    }
+    
+    .main-list .device .first h1{
+        text-align: center;
     }
 
     .main-list .device .first .img-box img{
