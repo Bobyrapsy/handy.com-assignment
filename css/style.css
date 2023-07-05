@@ -74,6 +74,7 @@
 
 .main-aqua .main-list .first-box .first-box-sub .box-1{
     display: flex;
+    box-shadow: var(--box-shadow5);
     height: 5rem;
     flex-basis: 31%;
 }
